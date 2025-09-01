@@ -1,0 +1,45 @@
+body{
+
+    font-family: arial, sans-serif;
+    background-color: rgb(158, 192, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: azure;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0, 0, 15);
+    width: 380px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: rgb(58, 43, 28)
+}
+.nota, .resultado {
+    margin: 6px 0;
+    font-size: 16px;
+}
+.resultado strong{
+    color: black;
+}
+.estado {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+.aprobado {
+    background: rgb(122, 199, 110);
+    color: rgb(29, 59, 33);
+    border: 2px rgb(255, 0, 0);
+}
+.reprobado {
+    background: floralwhite;
+    color: brown;
+    border: 1px solid firebrick;
+}
